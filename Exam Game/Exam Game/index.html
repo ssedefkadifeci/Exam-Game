@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>GAME</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+</head>
+
+<body>
+
+	<div class="limiter">
+		<div class="container-login100" style="background-image: url('images/bg-01.jpg');">
+			<div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-54">
+
+
+					<span class="login100-form-title p-b-49">
+						Welcome User
+					</span>
+					<h1 id="txScore" style="font-weight: bold; color:limegreen; font-size:1cm;text-align: center; " >
+					0
+					</h1>
+					<div class="container-login100-form-btn">
+						<div class="wrap-login100-form-btn">
+							<div class="login100-form-bgbtn"></div>
+							<button  id="demo"  class="login100-form-btn" onclick="newWord()"> Generate New Word</button>
+						</div>
+					</div>
+
+					<h3 id="txWord" style="margin-top: 1cm;" class="txt1 p-b-17">
+						Word
+					</h3>
+					<h3 id="txQuestion" style="margin-top: 1CH; font-weight: bold; color: blue;" class="txt1 p-b-17">
+						Question ?
+					</h3>
+
+					<input id="txAnswer" class="input--style-4" type="text" name="first_name">
+
+
+					<div  style="margin-top: 1ch;" class="row">
+						<div class="container-login100-form-btn">
+							<div class="wrap-login100-form-btn">
+								<div class="login100-form-bgbtn"></div>
+								<button onclick="answerQuestion()"  style="background-color: greenyellow;"  class="login100-form-btn">Confirm</button>
+							</div>
+						</div>
+
+						<div style="margin-top: 1ch;" class="container-login100-form-btn">
+							<div class="wrap-login100-form-btn">
+								<div class="login100-form-bgbtn"></div>
+								<button onclick="genrateQuestin()" style="background-color: crimson;" class="login100-form-btn"> New Question</button>
+							</div>
+						</div>
+					</div>
+		
+			</div>
+		</div>
+	</div>
+
+	<script src="js/main.js"></script>
+
+</body>
+
+</html>
